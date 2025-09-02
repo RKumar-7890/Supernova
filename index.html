@@ -2,117 +2,221 @@
 <html lang="en">
 <head>
     <style>
-        #g{
-            background-color: rgb(222, 48, 21);
-            margin-left: 20px;
-            margin-right: 20px;
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border: 2px solid #444;
+            border-collapse: collapse;
+            margin: 20px auto;
+            border-radius: 17px;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 10px 15px;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f5f5f5;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        fieldset {
+            border: 2px solid #888;
+            margin: 20px 0 10px 0;
             padding: 10px;
-            font-size: 40px;
+            border-radius: 15px;
         }
-        .h{
-            float: center;
-            font-size: medium;
-           
-            
+        legend {
+            font-weight: bold;
+            font-size: 1.1em;
         }
-        #mar{
-
-            background-color: rgb(158, 229, 232);
-            font-size: x-large;
-            color: chocolate;
+        input[type="submit"], input[type="reset"] {
+            padding: 8px 18px;
+            font-size: 1em;
+            margin-right: 10px;
+            border-radius: 10px;
         }
-       
-        .info{
-            word-spacing:23px ;
-           font-size: x-large;
-           background-position: right;
-           margin-left: 20px ;
-           margin-right: 25px;
+        .section-head {
+            background-color: #e8e8e8;
+            font-weight: bold;
+            text-align: left;
+            color: blueviolet;
         }
-         .news { 
-            color:bisque;
-            padding-right: 25px;
-           
-         }
-
+        placeholder{
+        color: red;
+        }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of RAjabaran - Home</title>
 </head>
-<body>
-   <header>    <div class="h"></div><nav>
-     <div id="g">+91 - 346741543245346  || gmail-: rajabaran.uni.ac.in</div>
-        <div class="info">  <a href="home.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="Departments.html">Departments</a>
-                <a href="Addmission.html">Admission</a>
-                <a href="gallary.html">Gallery</a>
-                </div>
-     
-        <img src="logo.png" alt="University Logo" width="500px" width="500px">
-        
-        
-        <h1>University of Rajabaran</h1>
-        
-        
-            
-        </nav>
+    <title>Registration Form</title>
+</head>
+<body style="background-color: rgb(222, 236, 231);">
+    <h2 style="text-align: center; color: blueviolet;"> Registration Form </h2>
+    <form action="#" autocomplete="on" method="post">
 
-      </div>
-    <div id="mar">  <marquee behavior="" direction="right">Welcome  to the university of Rajabaran </marquee></div> 
-    </header>
-    <main>
-        </div>
-        
-        </div>
-        <marquee behavior="" direction="right"> </marquee>
-        <section style="background-color: aquamarine;">
-            <h1>About University of Rajabaran </h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBfN7jZNby3xMqZI4j-H3d8Sk2ddeB_1bsA&s" alt="" height="200px">
-            <h4>I am glad that I have been given an opportunity to serve as the Chancellaer of University of Rajabaran
-                 -the oldest one in the University. It is an honour and 
-                 privilege for me to lead this prestigious institute which has a rich history of its distinction in teaching,
-                  research and service to the nation.  whose 
-                  foundation stone has been laid by the former prime minister, Rambaran in the year 2003.
-                   Over a period of more than two decades, UoR has emerged as one of the leading institutions in
-                    engineering and technology. Warangal is the second largest city of the state of Uttar pradesh being 
-                    the first one which has several places of interest to visit. Some of the cultural heritages worth seeing in
-                   . University of Rajabaran is poised to create an
-                      ambience for nurturing innovation, incubation, creativity and excellence within its faculty and students
-     towards achieving the sustainable development goals. We emphasize on student centric education with interdisciplinar
-     y research and development for the benefit of Industry and Society.University of Rajabaran becomes a preferred institution for
-     top rankers in Joint Entrance Examination (Main) because of its excellent teaching learning process, infrastructure 
-     that a student needs for effective learning. Our alumni have received distinguished recognitions in their chosen areas
-     of profession and extend support towards sustainable development of the institute. I invite participation of all 
-     the stakeholders in
-                 the growth plan of the institute to steer it to the next level of success in all fronts. </h4>
-        </section>
-        <section id="news-notice">
-    <h2>News & Notice</h2>
-    <div class="news-item">
-        <h3>Convocation 2025 Scheduled</h3>
-        <p>The University will hold its annual convocation on September 15th, 2025 at the Main Auditorium. All recent graduates are invited.<br><span class="date">Posted: Aug 26, 2025</span></p>
-    </div>
-    <div class="news-item">
-        <h3>Admissions Open for 2025-26</h3>
-        <p>University of Rajabaran has started the admission process for 2025-26 academic session. Visit the Admissions page for eligibility and application details.<br><span class="date">Posted: Aug 20, 2025</span></p>
-    </div>
-    <div class="news-item">
-        <h3>Research Grants Announced</h3>
-        <p>The university has announced new research grants for postgraduate science students. Last date to apply: September 30, 2025.<br><span class="date">Posted: Aug 15, 2025</span></p>
-    </div>
-</section>
-<style>
-#news-notice { background: #f9f9f9; padding: 20px; margin: 20px 0; border-radius: 8px; }
-#news-notice .news-item { border-bottom: 1px solid #ddd; padding: 10px 0; }
-#news-notice .news-item:last-child { border-bottom: none; }
-#news-notice .date { color: #888; font-size: 0.95em; font-style: italic; }
-</style>
+        <Fieldset>
+<legend style="color: rgb(216, 77, 23);"> Registration Details </legend>
+<table>
 
-    </main>
-    <footer>
-        <p>&copy; 26/08/2026 : all copy right and lisecend are strictly reserved for administration of University of Rajabaran</p>
-    </footer>
+
+    <!-- Personal Details Section -->
+    <tr>
+        <th colspan="2" class="section-head">Personal Details</th>
+    </tr>
+    <tr>
+        <td>First Name <span style="color:rgb(172, 34, 34);">*</span></td>
+        <td>
+            <input type="text" name="firstName" placeholder="Enter your first name " required maxlength="30" title="Enter your first name">
+        </td>
+    </tr>
+    <tr>
+        <td>Last Name <span style="color:red;">*</span></td>
+        <td>
+            <input type="text" name="lastName" placeholder="please enter your last name " required maxlength="30" title="Enter your last name">
+        </td>
+    </tr>
+    <tr>
+        <td>Email <span style="color:red;">*</span></td>
+        <td>
+            <input type="email" name="email" placeholder="Please enter your email" required maxlength="60" title="Enter a valid email address">
+        </td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td>
+            <input type="tel" name="phone"
+                pattern="\d{10}" maxlength="10" placeholder="Enter your Mobile no."
+                title="Enter a 10-digit phone number">
+            <small>(10 digits only)</small>
+        </td>
+    </tr>
+    <!-- Account Details -->
+    <tr> 
+      <div style="background-color: aquamarine;"> <th colspan="2" class="section-head"> 
+             Account Details </th> </div>
+    </tr>
+    <tr>
+        <td> Username <span style="color:red">*</span></td>
+        <td> <input type="text" name="username" required
+             placeholder="Please enter valid username">
+        </td>
+    </tr>
+    <tr>
+        <td> Passward: <span style="color:red">*</span></td>
+        <td> <input type="password" name="Passward" required
+             placeholder="Please enter valid Passward"></td>
+    </tr>
+    <tr>
+        <td>Confirm Passward: <span style="color:red">*</span></td>
+        <td> <input type="password" name="Confirm Passward" required
+             placeholder="Please enter Confirm Passward"></td>
+    </tr>
+    <!-- Address Details  -->
+    <tr> 
+        <th colspan="2" class="section-head">
+             Address </th>
+    
+    </tr>
+    <tr>
+        <td>Address Line 1: <span style="color:red">*</span></td>
+        <td> <input type="text" name="Address Line 1" required
+             placeholder="Please enter Address "></td>
+    </tr>
+    <tr>
+        <td>Address Line 2: <span style="color:red">*</span></td>
+        <td> <input type="text" name="Address Line 2" required
+             placeholder="Please enter Address "></td>
+    </tr>
+    <tr>
+        <td>City: <span style="color:red">*</span></td>
+        <td> <input type="text" name="City" required
+             placeholder="Please enter your city  "></td>
+    </tr>
+    <tr>
+<td> State : <span ></span></td>
+<td> 
+
+    <Select> 
+        <option value="Select State " > Select State </option>
+        <option value="Select State " > Uttar Pradesh </option>
+        <option value="Select State " > Gujarat </option>
+        <option value="Select State " > Rajasthan</option>
+        <option value="Select State " > Delhi </option>
+        <option value="Select State " > Telangana </option>
+        <option value="Select State " > Tamilnadu</option>
+        <option value="Select State " > Kerala </option>
+        <option value="Select State " > Punjab </option>
+        <option value="Select State " > Hariyana </option>
+    </Select>
+</td>
+
+    </tr>
+    <tr>
+        <td>ZIP Code <span style="color:red">*</span></td>
+        <td> <input type="text" name="City" required
+             ></td>
+    </tr>
+    <!-- Preferences -->
+    <tr> 
+       <th colspan="2" class="section-head"> 
+               Preferences </th>
+      </tr>
+      <tr>
+        <td> Gender : <span style="color:red">*</span></td>
+       <td> 
+        <input type="radio" name="Gender"  > Male
+         <input type="radio" name="Gender"  > Female
+        <input type="radio" name="Gender"  > Other
+    </td>
+    </tr>
+    <tr>
+        <td>Subscribe to Newsletter</td>
+        <td>
+            <input type="checkbox" name="newsletter" value="yes"> Yes, send me updates!
+        </td>
+    </tr>
+<tr>
+    <td>Short Bio : <span style="color:red">*</span></td>
+    <td> 
+        <textarea name="" id="" cols="25" rows="5"></textarea>
+    </td>
+</tr>
+<tr> <td> <input type="checkbox"> I agree to the <strong>Terms and Conditions</strong> 
+     <span style="color:red">*</span></td></tr>
+     <tr>
+        <td colspan="2" style="text-align:center;">
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+</table>
+
+
+        </Fieldset>
+
+    </form>
+
+    <h3 style="text-align:center;">Terms and Conditions</h3>
+    <iframe
+        srcdoc='
+        <h4>Registration Terms and Conditions</h4>
+        <ol>
+            <li>All information submitted must be truthful and accurate.</li>
+            <li>Your account cannot be shared or transferred to others.</li>
+            <li>Personal information will be used solely for registration and 
+                communication purposes.</li>
+            <li>By submitting, you consent to receive related notifications (if opted in).
+
+            </li>
+            <li>Violations of terms may lead to account suspension.</li>
+        </ol>
+        <p style="font-size:0.9em; color:red;">Please read these terms carefully
+             before submitting your registration.</p>'
+        width="80%"
+        height="170"
+        style="border:1.5px solid #888; margin:0 auto; display:block;
+         background:#976990;"
+        title="Terms and Conditions"
+        aria-label="Terms and Conditions"></iframe>
 </body>
 </html>
